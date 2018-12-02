@@ -27,9 +27,10 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
 - Execute Command ```vagrant up```
 - Execute Command ```vboxmanage list runningvms``` the list running Virtual Machines
 - Execute Command ```vagrant ssh acs``` to SSH into ACS VM 
+  - Install Updates ```sudo apt-get update```
   - Install Ansible ```sudo apt-get install ansible```
   - Install sshpass ```sudo apt-get install sshpass```
-  - Install git client ```sudo apt-get install git```
+  - Install git client ```sudo apt-get install git-core```
   - Clone [this](https://github.com/schandan18/ansible-intro.git) repository inside ACS VM
   - cd into ```ansible-intro/ansible``` directory
   - Execute command ```ssh vagrant@192.168.33.20``` accept defaults and logout
