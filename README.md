@@ -35,7 +35,6 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
   - cd into ```ansible-intro/ansible``` directory
   - Execute command ```ssh vagrant@192.168.33.20``` accept defaults and logout
   - Execute command ```ssh vagrant@192.168.33.30``` accept defaults and logout
-  - Execute command ```ansible-playbook web_db.yaml -k --check``` to execute the Playbook in Dryrun mode
   - Execute command ```ansible-playbook web_db.yaml -k``` to execute the Playbook
 - Execute Command ```vagrant ssh web``` to SSH into WEB VM
 - Execute Command ```vagrant ssh db``` to SSH into DB VM
