@@ -23,7 +23,7 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
 - Add VirtualBox install directory to system Path. (Example : C:\Program Files\Oracle\VirtualBox)
 - Clone [this](https://github.com/schandan18/ansible-intro.git) Repository
 - Open command prompt and ```cd``` into the directory for the above cloned Git Repository
-- Set the HTTP Proxy (based on your site/network) ```set HTTPS_PROXY=http://<Proxy-Server-Name>:<Port-Number>```
+- If you trying this in a corporate network and behind a HTTP proxy server. Set the HTTP Proxy (based on your site/network) ```set HTTPS_PROXY=http://<Proxy-Server-Name>:<Port-Number>```
 - Execute Command ```vagrant up```
 - Execute Command ```vboxmanage list runningvms``` the list running Virtual Machines
 - Execute Command ```vagrant ssh acs``` to SSH into ACS VM 
