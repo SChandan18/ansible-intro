@@ -1,4 +1,4 @@
-##### What is Ansible ?
+## What is Ansible ?
 
 Ansible is a radically simple IT automation engine that automates cloud provisioning, configuration management, application deployment, intra-service orchestration, and many other IT needs.
 
@@ -8,15 +8,15 @@ Ansible is a radically simple IT automation engine that automates cloud provisio
 - Ansible is Secure as it works over SSH
 - Ansible is Simple
 
-##### Ansible Components
+## Ansible Components
 
 ![Asnible Components](/docs/ansible-architecture.jpg)
 
-##### Ansible Demo Infrastructure 
+## Ansible Demo Infrastructure 
 
 ![Demo Infrastructure](/docs/ansible-demo-server.jpg)
 
-##### Ansible Environment Setup - Instructions
+## Ansible Environment Setup - Instructions
 
 - Install [VirtualBox](https://www.virtualbox.org/)
 - Install [Vagrant](https://www.vagrantup.com/)
